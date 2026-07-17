@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/agricy.dir/src/main.cpp.o -o agricy 
+/usr/bin/c++ CMakeFiles/agricy.dir/src/main.cpp.o CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o -o agricy 

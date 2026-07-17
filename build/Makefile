@@ -129,6 +129,30 @@ agricy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/build
 .PHONY : agricy/fast
 
+src/SensorSimulator.o: src/SensorSimulator.cpp.o
+.PHONY : src/SensorSimulator.o
+
+# target to build an object file
+src/SensorSimulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o
+.PHONY : src/SensorSimulator.cpp.o
+
+src/SensorSimulator.i: src/SensorSimulator.cpp.i
+.PHONY : src/SensorSimulator.i
+
+# target to preprocess a source file
+src/SensorSimulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.i
+.PHONY : src/SensorSimulator.cpp.i
+
+src/SensorSimulator.s: src/SensorSimulator.cpp.s
+.PHONY : src/SensorSimulator.s
+
+# target to generate assembly for a file
+src/SensorSimulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.s
+.PHONY : src/SensorSimulator.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... agricy"
+	@echo "... src/SensorSimulator.o"
+	@echo "... src/SensorSimulator.i"
+	@echo "... src/SensorSimulator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
