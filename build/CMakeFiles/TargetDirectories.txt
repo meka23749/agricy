@@ -1,0 +1,3 @@
+/home/steve/agricy/build/CMakeFiles/agricy.dir
+/home/steve/agricy/build/CMakeFiles/edit_cache.dir
+/home/steve/agricy/build/CMakeFiles/rebuild_cache.dir

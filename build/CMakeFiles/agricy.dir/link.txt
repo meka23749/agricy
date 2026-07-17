@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/agricy.dir/src/main.cpp.o -o agricy 
