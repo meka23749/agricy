@@ -129,53 +129,50 @@ agricy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/build
 .PHONY : agricy/fast
 
-src/SensorSimulator.o: src/SensorSimulator.cpp.o
+# target to build an object file
+src/Database.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/Database.o
+.PHONY : src/Database.o
+
+# target to preprocess a source file
+src/Database.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/Database.i
+.PHONY : src/Database.i
+
+# target to generate assembly for a file
+src/Database.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/Database.s
+.PHONY : src/Database.s
+
+# target to build an object file
+src/SensorSimulator.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.o
 .PHONY : src/SensorSimulator.o
 
-# target to build an object file
-src/SensorSimulator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o
-.PHONY : src/SensorSimulator.cpp.o
-
-src/SensorSimulator.i: src/SensorSimulator.cpp.i
+# target to preprocess a source file
+src/SensorSimulator.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.i
 .PHONY : src/SensorSimulator.i
 
-# target to preprocess a source file
-src/SensorSimulator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.i
-.PHONY : src/SensorSimulator.cpp.i
-
-src/SensorSimulator.s: src/SensorSimulator.cpp.s
+# target to generate assembly for a file
+src/SensorSimulator.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.s
 .PHONY : src/SensorSimulator.s
 
-# target to generate assembly for a file
-src/SensorSimulator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/SensorSimulator.cpp.s
-.PHONY : src/SensorSimulator.cpp.s
-
-src/main.o: src/main.cpp.o
+# target to build an object file
+src/main.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.o
 .PHONY : src/main.o
 
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
+# target to preprocess a source file
+src/main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.i
 .PHONY : src/main.i
 
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/agricy.dir/build.make CMakeFiles/agricy.dir/src/main.s
+.PHONY : src/main.s
 
 # Help Target
 help:
@@ -186,6 +183,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... agricy"
+	@echo "... src/Database.o"
+	@echo "... src/Database.i"
+	@echo "... src/Database.s"
 	@echo "... src/SensorSimulator.o"
 	@echo "... src/SensorSimulator.i"
 	@echo "... src/SensorSimulator.s"

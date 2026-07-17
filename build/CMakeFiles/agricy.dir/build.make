@@ -69,47 +69,64 @@ include CMakeFiles/agricy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/agricy.dir/flags.make
 
-CMakeFiles/agricy.dir/src/main.cpp.o: CMakeFiles/agricy.dir/flags.make
-CMakeFiles/agricy.dir/src/main.cpp.o: /home/steve/agricy/app/src/main.cpp
-CMakeFiles/agricy.dir/src/main.cpp.o: CMakeFiles/agricy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/agricy.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agricy.dir/src/main.cpp.o -MF CMakeFiles/agricy.dir/src/main.cpp.o.d -o CMakeFiles/agricy.dir/src/main.cpp.o -c /home/steve/agricy/app/src/main.cpp
+CMakeFiles/agricy.dir/src/main.o: CMakeFiles/agricy.dir/flags.make
+CMakeFiles/agricy.dir/src/main.o: /home/steve/agricy/app/src/main.cpp
+CMakeFiles/agricy.dir/src/main.o: CMakeFiles/agricy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/agricy.dir/src/main.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agricy.dir/src/main.o -MF CMakeFiles/agricy.dir/src/main.o.d -o CMakeFiles/agricy.dir/src/main.o -c /home/steve/agricy/app/src/main.cpp
 
-CMakeFiles/agricy.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agricy.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/agricy/app/src/main.cpp > CMakeFiles/agricy.dir/src/main.cpp.i
+CMakeFiles/agricy.dir/src/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agricy.dir/src/main.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/agricy/app/src/main.cpp > CMakeFiles/agricy.dir/src/main.i
 
-CMakeFiles/agricy.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agricy.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/agricy/app/src/main.cpp -o CMakeFiles/agricy.dir/src/main.cpp.s
+CMakeFiles/agricy.dir/src/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agricy.dir/src/main.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/agricy/app/src/main.cpp -o CMakeFiles/agricy.dir/src/main.s
 
-CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o: CMakeFiles/agricy.dir/flags.make
-CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o: /home/steve/agricy/app/src/SensorSimulator.cpp
-CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o: CMakeFiles/agricy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o -MF CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o.d -o CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o -c /home/steve/agricy/app/src/SensorSimulator.cpp
+CMakeFiles/agricy.dir/src/SensorSimulator.o: CMakeFiles/agricy.dir/flags.make
+CMakeFiles/agricy.dir/src/SensorSimulator.o: /home/steve/agricy/app/src/SensorSimulator.cpp
+CMakeFiles/agricy.dir/src/SensorSimulator.o: CMakeFiles/agricy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/agricy.dir/src/SensorSimulator.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agricy.dir/src/SensorSimulator.o -MF CMakeFiles/agricy.dir/src/SensorSimulator.o.d -o CMakeFiles/agricy.dir/src/SensorSimulator.o -c /home/steve/agricy/app/src/SensorSimulator.cpp
 
-CMakeFiles/agricy.dir/src/SensorSimulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agricy.dir/src/SensorSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/agricy/app/src/SensorSimulator.cpp > CMakeFiles/agricy.dir/src/SensorSimulator.cpp.i
+CMakeFiles/agricy.dir/src/SensorSimulator.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agricy.dir/src/SensorSimulator.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/agricy/app/src/SensorSimulator.cpp > CMakeFiles/agricy.dir/src/SensorSimulator.i
 
-CMakeFiles/agricy.dir/src/SensorSimulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agricy.dir/src/SensorSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/agricy/app/src/SensorSimulator.cpp -o CMakeFiles/agricy.dir/src/SensorSimulator.cpp.s
+CMakeFiles/agricy.dir/src/SensorSimulator.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agricy.dir/src/SensorSimulator.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/agricy/app/src/SensorSimulator.cpp -o CMakeFiles/agricy.dir/src/SensorSimulator.s
+
+CMakeFiles/agricy.dir/src/Database.o: CMakeFiles/agricy.dir/flags.make
+CMakeFiles/agricy.dir/src/Database.o: /home/steve/agricy/app/src/Database.cpp
+CMakeFiles/agricy.dir/src/Database.o: CMakeFiles/agricy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/agricy.dir/src/Database.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agricy.dir/src/Database.o -MF CMakeFiles/agricy.dir/src/Database.o.d -o CMakeFiles/agricy.dir/src/Database.o -c /home/steve/agricy/app/src/Database.cpp
+
+CMakeFiles/agricy.dir/src/Database.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agricy.dir/src/Database.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/agricy/app/src/Database.cpp > CMakeFiles/agricy.dir/src/Database.i
+
+CMakeFiles/agricy.dir/src/Database.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agricy.dir/src/Database.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/agricy/app/src/Database.cpp -o CMakeFiles/agricy.dir/src/Database.s
 
 # Object files for target agricy
 agricy_OBJECTS = \
-"CMakeFiles/agricy.dir/src/main.cpp.o" \
-"CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o"
+"CMakeFiles/agricy.dir/src/main.o" \
+"CMakeFiles/agricy.dir/src/SensorSimulator.o" \
+"CMakeFiles/agricy.dir/src/Database.o"
 
 # External object files for target agricy
 agricy_EXTERNAL_OBJECTS =
 
-agricy: CMakeFiles/agricy.dir/src/main.cpp.o
-agricy: CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o
+agricy: CMakeFiles/agricy.dir/src/main.o
+agricy: CMakeFiles/agricy.dir/src/SensorSimulator.o
+agricy: CMakeFiles/agricy.dir/src/Database.o
 agricy: CMakeFiles/agricy.dir/build.make
+agricy: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 agricy: CMakeFiles/agricy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable agricy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/steve/agricy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable agricy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/agricy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

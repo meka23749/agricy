@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o"
-  "CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o.d"
-  "CMakeFiles/agricy.dir/src/main.cpp.o"
-  "CMakeFiles/agricy.dir/src/main.cpp.o.d"
+  "CMakeFiles/agricy.dir/src/Database.o"
+  "CMakeFiles/agricy.dir/src/Database.o.d"
+  "CMakeFiles/agricy.dir/src/SensorSimulator.o"
+  "CMakeFiles/agricy.dir/src/SensorSimulator.o.d"
+  "CMakeFiles/agricy.dir/src/main.o"
+  "CMakeFiles/agricy.dir/src/main.o.d"
   "agricy"
   "agricy.pdb"
 )
