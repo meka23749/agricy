@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/steve/agricy/app/include
+CXX_INCLUDES = -I/home/steve/agricy/app/include -I/home/steve/agricy/app/include/Crow/include
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++17
 

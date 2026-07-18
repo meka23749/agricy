@@ -1,4 +1,4 @@
-CMakeFiles/agricy.dir/src/Database.o: \
+CMakeFiles/agricy.dir/src/Database.cpp.o: \
  /home/steve/agricy/app/src/Database.cpp /usr/include/stdc-predef.h \
  /home/steve/agricy/app/include/Database.hpp /usr/include/sqlite3.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \

@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/agricy.dir/src/main.o CMakeFiles/agricy.dir/src/SensorSimulator.o CMakeFiles/agricy.dir/src/Database.o -o agricy  /usr/lib/x86_64-linux-gnu/libsqlite3.so 
+/usr/bin/c++ CMakeFiles/agricy.dir/src/main.cpp.o CMakeFiles/agricy.dir/src/SensorSimulator.cpp.o CMakeFiles/agricy.dir/src/Database.cpp.o -o agricy  /usr/lib/x86_64-linux-gnu/libsqlite3.so 
