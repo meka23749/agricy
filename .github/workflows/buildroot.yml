@@ -9,8 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Install dependencies
         run: |
@@ -25,11 +23,6 @@ jobs:
             cpio \
             file \
             python3
-
-      - name: Check Buildroot
-        run: |
-          ls -la
-          ls -la buildroot
 
       - name: Build Buildroot
         run: |
