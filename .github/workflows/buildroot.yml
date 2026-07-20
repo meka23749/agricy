@@ -1,0 +1,39 @@
+name: Buildroot Image
+
+on:
+  workflow_dispatch:
+
+jobs:
+  buildroot:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            build-essential \
+            git \
+            wget \
+            rsync \
+            unzip \
+            bc \
+            cpio \
+            file \
+            python3
+
+      - name: Build Buildroot
+        run: |
+          cd buildroot
+          make
+
+      - name: Upload images
+        uses: actions/upload-artifact@v4
+        with:
+          name: agricy-linux-image
+          path: |
+            buildroot/output/images/bzImage
+            buildroot/output/images/rootfs.ext4
+            buildroot/output/images/rootfs.tar
