@@ -47,7 +47,7 @@ int main()
     CROW_ROUTE(app, "/")
     ([]()
     {
-        std::ifstream file("../app/web/index.html");
+        std::ifstream file("/agricy/app/web/index.html");;
 
         if (!file)
             return crow::response(404, "index.html not found");
@@ -108,7 +108,7 @@ int main()
     CROW_ROUTE(app, "/style.css")
     ([]()
     {
-        std::ifstream file("../app/web/style.css");
+        std::ifstream file("../agricy/app/web/style.css");
 
         if (!file)
             return crow::response(404);
@@ -124,7 +124,7 @@ int main()
     CROW_ROUTE(app, "/app.js")
     ([]()
     {
-        std::ifstream file("../app/web/app.js");
+        std::ifstream file("../agricy/app/web/app.js");
 
         if (!file)
             return crow::response(404);

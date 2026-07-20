@@ -7,11 +7,14 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(SQLite3 REQUIRED)
 find_package(Threads REQUIRED)
 
+
 add_executable(agricy
     src/main.cpp
     src/SensorSimulator.cpp
     src/Database.cpp
 )
+
+target_compile_definitions(agricy PRIVATE CROW_USE_BOOST)
 
 target_include_directories(agricy PRIVATE
     include
@@ -22,3 +25,5 @@ target_link_libraries(agricy PRIVATE
     SQLite::SQLite3
     Threads::Threads
 )
+
+install(TARGETS agricy DESTINATION bin)
